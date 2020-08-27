@@ -1,0 +1,5 @@
+Ocurre que muchas veces cuando ejecutas el comando git remote add origin <url> , te dice qwe el repo ya existe 
+pero cuando ejecutas el comando git remote -v este muestra que estas parado sobre un repositorio inexistente o eliminado , lo cual generara error  y no podras subir el proyecto.
+Mi solucion fue borrar el repositorio que teni apuntado GIT con el comando "git remote rm origin " , luego podes agregar elnuevo repositorio donde apuntara GIT
+con el  comando git remote add origin <url> y por ultimo ejecutar "git push -u origin" 
+Esta fue mi problema y mi solucion
